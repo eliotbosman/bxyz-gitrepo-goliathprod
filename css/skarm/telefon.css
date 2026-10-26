@@ -1,5 +1,5 @@
 /* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
-@media not (min-width: 40rem) {
+@media (max-width: 39.999rem) {
   body {
     --ram-horna: 16px;
   }
@@ -70,12 +70,12 @@
     background-size: 48px 48px;
     animation-name: korn-fin-b;
   }
+}
 
-  @media (prefers-reduced-motion: reduce) {
-    .ram__korn::before,
-    .ram__korn::after {
-      animation: none;
-    }
+@media (prefers-reduced-motion: reduce) {
+  .ram__korn::before,
+  .ram__korn::after {
+    animation: none;
   }
 }
 
