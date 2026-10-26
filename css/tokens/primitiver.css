@@ -23,7 +23,7 @@
   }
 }
 
-@media (orientation: landscape) and (not (min-width: 64rem)) {
+@media (orientation: landscape) and (max-width: 63.999rem) {
   :root {
     --u: clamp(1.5rem, 5.333dvh, 2rem);
     --cols: 6;

@@ -1,5 +1,5 @@
 /* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
-@media (min-width: 40rem) and (not (min-width: 64rem)) {
+@media (min-width: 40rem) and (max-width: 63.999rem) {
   .vy__text p {
     hyphens: auto;
     hyphenate-limit-chars: 6 3 2;
