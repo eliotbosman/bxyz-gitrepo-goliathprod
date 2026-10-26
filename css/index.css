@@ -9,9 +9,8 @@
 @import url("bas/typsnitt.css") layer(bas);
 @import url("bas/bas.css") layer(bas);
 @import url("komponenter/sida.css") layer(komponenter);
-@import url("skarm/telefon.css") layer(skarm) not (min-width: 40rem);
-@import url("skarm/platta.css") layer(skarm) (min-width: 40rem) and (not (min-width: 64rem));
-@import url("skarm/handhallen.css") layer(skarm) not (min-width: 64rem);
-@import url("skarm/skrivbord.css") layer(skarm) (min-width: 64rem);
-@import url("skarm/skrivbord.css") layer(skarm) (orientation: landscape) and (not (min-width: 64rem));
+@import url("skarm/telefon.css") layer(skarm);
+@import url("skarm/platta.css") layer(skarm);
+@import url("skarm/handhallen.css") layer(skarm);
+@import url("skarm/skrivbord.css") layer(skarm);
 @import url("verktyg/verktyg.css") layer(verktyg);

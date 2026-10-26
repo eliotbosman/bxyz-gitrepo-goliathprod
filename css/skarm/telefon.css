@@ -1,40 +1,47 @@
 /* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
-body {
-  --ram-horna: 16px;
-}
+@media not (min-width: 40rem) {
+  body {
+    --ram-horna: 16px;
+  }
 
-.meny__lank[href^="mailto:"] {
-  display: none;
-}
+  .meny__lank[href^="mailto:"] {
+    display: none;
+  }
 
-.meny__lank {
-  font-size: calc(var(--typ-text) * 0.85);
-  -webkit-text-stroke: calc(var(--typ-streck) * 0.85) currentColor;
-}
+  .meny__lank {
+    font-size: calc(var(--typ-text) * 0.8);
+    -webkit-text-stroke: calc(var(--typ-streck) * 0.8) currentColor;
+  }
 
-.marke__g {
-  block-size: calc(30pt * 0.85);
-}
+  .marke__g {
+    block-size: calc(30pt * 0.85);
+  }
 
-.vy__start {
-  inline-size: 85%;
-}
+  .vy {
+    align-items: start;
+    padding-block: calc(var(--u) * 2.5);
+  }
 
-.vy__text h2 {
-  font-size: calc(var(--typ-text) * 0.85);
-  line-height: calc(var(--typ-led) * 0.85);
-}
+  .vy__start {
+    inline-size: 85%;
+  }
 
-.vy__text p {
-  font-size: calc(var(--typ-text) * 1.5 * 0.85);
-  line-height: calc(var(--typ-led) * 1.5 * 0.85);
-  -webkit-text-stroke: calc(var(--typ-streck) * 1.5 * 0.85) currentColor;
-  hyphens: auto;
-  hyphenate-limit-chars: 6 3 2;
-  text-wrap: pretty;
-}
+  .vy__text h2 {
+    font-size: calc(var(--typ-text) * 0.8);
+    line-height: calc(var(--typ-led) * 0.8);
+  }
 
-.fot,
-.fot > * {
-  white-space: nowrap;
+  .vy__text p {
+    font-size: calc(var(--typ-text) * 0.9);
+    line-height: calc(var(--typ-led) * 0.9);
+    -webkit-text-stroke: calc(var(--typ-streck) * 0.9) currentColor;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 2;
+    text-wrap: pretty;
+  }
+
+  .fot,
+  .fot > * {
+    white-space: nowrap;
+  }
 }

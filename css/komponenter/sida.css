@@ -282,8 +282,10 @@ body:has(#hem[data-tillstand="efter"]) .marke {
 
 .vy {
   display: grid;
-  place-items: center;
-  block-size: 100%;
+  justify-items: center;
+  align-items: center;
+  align-items: safe center;
+  min-block-size: 100%;
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
