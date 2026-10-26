@@ -1,0 +1,50 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+:root {
+  --palett-svart: #000000;
+  --palett-papper: #f6f5f1;
+  --palett-gra-300: #c9c8c3;
+  --palett-gra-600: #6d6c68;
+  --palett-signal: #2b44a9;
+  --palett-rosa: #e4007c;
+  --palett-gul: #ffde21;
+
+  --typsnitt: "Didai Text", Didot, Palatino, serif;
+  --typsnitt-display: "Didai Text", Didot, Palatino, serif;
+  --typsnitt-yttre: "Didai Text", Didot, Palatino, serif;
+  --vikt-brod: 400;
+  --vikt-rubrik: 500;
+  --vikt-marke: 700;
+
+  --spar-text: -0.025em;
+  --typ-text: 1.15rem;
+  --typ-led: calc(var(--typ-text) * 1.2);
+  --typ-streck: calc(var(--typ-text) * 0.05);
+  --typ-yttre: calc(var(--typ-text) / 2);
+  --typ-yttre-led: calc(var(--typ-led) / 2);
+
+  --text: var(--palett-gul);
+  --yta: var(--palett-svart);
+  --linje: var(--palett-gra-600);
+  --dampad: var(--palett-gra-300);
+  --accent: var(--palett-papper);
+
+  --opakhet-film: 0.92;
+  --sloja-kant: color-mix(in srgb, var(--yta) 42%, transparent);
+
+  --dev-kolumn: color-mix(in srgb, var(--palett-rosa) 14%, transparent);
+  --dev-rad: color-mix(in srgb, var(--palett-signal) 45%, transparent);
+  --dev-baslinje: color-mix(in srgb, var(--palett-signal) 14%, transparent);
+  --dev-yta: var(--palett-svart);
+  --dev-text: var(--palett-papper);
+  --dev-aktiv: var(--palett-signal);
+  --dev-lyft: var(--palett-rosa);
+
+  color-scheme: dark;
+}
+
+html[data-typsnitt="minion"] {
+  --typsnitt: "Minion Pro", Palatino, "Palatino Linotype", serif;
+  --typsnitt-display: "Minion Pro", Palatino, "Palatino Linotype", serif;
+  --typsnitt-yttre: "Minion Pro", Palatino, "Palatino Linotype", serif;
+  --typ-streck: 0;
+}

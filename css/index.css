@@ -1,0 +1,17 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+@layer reset, tokens, bas, layout, komponenter, skarm, verktyg;
+
+@import url("bas/reset.css") layer(reset);
+@import url("tokens/primitiver.css") layer(tokens);
+@import url("tokens/harledda.css") layer(tokens);
+@import url("tokens/rorelse.css") layer(tokens);
+@import url("tokens/roller.css") layer(tokens);
+@import url("bas/typsnitt.css") layer(bas);
+@import url("bas/bas.css") layer(bas);
+@import url("komponenter/sida.css") layer(komponenter);
+@import url("skarm/telefon.css") layer(skarm) not (min-width: 40rem);
+@import url("skarm/platta.css") layer(skarm) (min-width: 40rem) and (not (min-width: 64rem));
+@import url("skarm/handhallen.css") layer(skarm) not (min-width: 64rem);
+@import url("skarm/skrivbord.css") layer(skarm) (min-width: 64rem);
+@import url("skarm/skrivbord.css") layer(skarm) (orientation: landscape) and (not (min-width: 64rem));
+@import url("verktyg/verktyg.css") layer(verktyg);

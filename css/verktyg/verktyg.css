@@ -1,0 +1,25 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+.visuellt-dold {
+  position: absolute;
+  inline-size: var(--stroke);
+  block-size: var(--stroke);
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.hoppa {
+  position: absolute;
+  inset-block-start: var(--margin);
+  inset-inline-start: var(--margin);
+  z-index: calc(var(--lager-dev) + 1);
+  padding-inline: var(--gutter);
+  background: var(--text);
+  color: var(--yta);
+  translate: 0 -200%;
+}
+
+.hoppa:focus {
+  translate: none;
+  outline-color: var(--yta);
+}

@@ -1,0 +1,16 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+@font-face {
+  font-family: "Didai Text";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../assets/typsnitt/didai-text-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Minion Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../assets/typsnitt/minion-pro-regular.otf") format("opentype");
+}

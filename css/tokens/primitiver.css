@@ -1,0 +1,37 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+:root {
+  --falt-inline: 100dvw;
+  --falt-block: 100dvh;
+  --u: clamp(2rem, 4.5dvw, 2.25rem);
+  --cols: 2;
+  --ratio-space: 0.25;
+  --ratio-type: 1.4;
+  --ratio-type-rubrik: 1.1;
+  --tau: 120ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --cols: 3;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --cols: 6;
+  }
+}
+
+@media (orientation: landscape) and (not (min-width: 64rem)) {
+  :root {
+    --u: clamp(1.5rem, 5.333dvh, 2rem);
+    --cols: 6;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --tau: 0ms;
+  }
+}

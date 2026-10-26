@@ -1,0 +1,35 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+body {
+  --ram-horna: 16px;
+}
+
+.meny__lank[href^="mailto:"] {
+  display: none;
+}
+
+.meny__lank {
+  font-size: calc(var(--typ-text) * 0.85);
+  -webkit-text-stroke: calc(var(--typ-streck) * 0.85) currentColor;
+}
+
+.marke__g {
+  block-size: calc(30pt * 0.85);
+}
+
+.vy__start {
+  inline-size: 85%;
+}
+
+.vy__text p {
+  font-size: calc(var(--typ-text) * 1.5 * 0.85);
+  line-height: calc(var(--typ-led) * 1.5 * 0.85);
+  -webkit-text-stroke: calc(var(--typ-streck) * 1.5 * 0.85) currentColor;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 2;
+  text-wrap: pretty;
+}
+
+.fot,
+.fot > * {
+  white-space: nowrap;
+}

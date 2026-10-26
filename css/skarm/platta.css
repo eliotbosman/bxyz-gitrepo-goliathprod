@@ -1,0 +1,6 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+.vy__text p {
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 2;
+  text-wrap: pretty;
+}

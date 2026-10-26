@@ -1,0 +1,34 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+:root {
+  --gutter: calc(var(--u) * var(--ratio-space));
+  --margin: calc(var(--gutter) * 2);
+  --baseline: calc(var(--u) / 4);
+  --stroke: calc(var(--u) / 16);
+  --fokus: calc(var(--stroke) * 2);
+  --col: calc(
+    (
+        var(--falt-inline)
+        - (2 * var(--margin))
+        - ((var(--cols) - 1) * var(--gutter))
+      )
+    / var(--cols)
+  );
+  --spar: repeat(var(--cols), minmax(0, 1fr));
+  --media-hojd: calc(var(--falt-block) - (2 * var(--margin)));
+
+  --typ-fot-hojd: calc(var(--baseline) * 2);
+  --typ-fot: calc(var(--typ-fot-hojd) / var(--ratio-type));
+  --typ-brod-hojd: calc(var(--baseline) * 3);
+  --typ-brod: calc(var(--typ-brod-hojd) / var(--ratio-type));
+  --typ-rubrik-hojd: var(--u);
+  --typ-rubrik: calc(var(--typ-rubrik-hojd) / var(--ratio-type-rubrik));
+  --typ-display-hojd: calc(var(--u) * 2);
+  --typ-display: calc(var(--typ-display-hojd) / var(--ratio-type-rubrik));
+
+  --lager-bas: 0;
+  --lager-innehall: 1;
+  --lager-meny: 2;
+  --lager-dev: 9;
+
+  --huvud-block: calc(var(--u) * 6);
+}

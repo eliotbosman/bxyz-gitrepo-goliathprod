@@ -1,0 +1,86 @@
+/* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
+html {
+  background: var(--yta);
+  color: var(--text);
+  font-family: var(--typsnitt);
+  font-weight: var(--vikt-brod);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  hanging-punctuation: first last;
+  transition: background-color var(--dur-2) var(--ease), color var(--dur-2) var(--ease);
+}
+
+body {
+  min-block-size: var(--falt-block);
+  padding-block-end: var(--u);
+  font-size: var(--typ-brod);
+  line-height: var(--typ-brod-hojd);
+}
+
+h1 {
+  font-size: var(--typ-display);
+  line-height: var(--typ-display-hojd);
+  font-weight: var(--vikt-rubrik);
+}
+
+h2 {
+  font-size: var(--typ-rubrik);
+  line-height: var(--typ-rubrik-hojd);
+  font-weight: var(--vikt-rubrik);
+}
+
+h3,
+h4 {
+  font-size: var(--typ-brod);
+  line-height: var(--typ-brod-hojd);
+  font-weight: var(--vikt-rubrik);
+}
+
+small {
+  font-size: var(--typ-fot);
+  line-height: var(--typ-fot-hojd);
+}
+
+p + p {
+  margin-block-start: var(--typ-brod-hojd);
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: var(--stroke);
+  text-decoration-skip-ink: auto;
+  text-underline-offset: calc(var(--baseline) * 0.75);
+}
+
+:focus-visible {
+  outline: var(--fokus) solid var(--accent);
+  outline-offset: var(--stroke);
+}
+
+::selection {
+  background: var(--text);
+  color: var(--yta);
+}
+
+html[data-axel="y"] {
+  overflow-x: clip;
+}
+
+html[data-axel="x"] {
+  overflow-y: clip;
+}
+
+html[data-a11y-krom="av"] {
+  scrollbar-width: none;
+}
+
+html[data-a11y-krom="av"]::-webkit-scrollbar {
+  display: none;
+}
+
+html[data-a11y-krom="av"] ::selection {
+  background: transparent;
+  color: inherit;
+}
