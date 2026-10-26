@@ -1,5 +1,13 @@
 /* BXYZ:..:eliot@bosmanxyz.xyz:..:.www.bosmanxyz.xyz */
 @media (min-width: 64rem) {
+  .vy__text {
+    inline-size: calc(
+      ((var(--cols) - 2) * var(--col))
+      + ((var(--cols) - 3) * var(--gutter))
+    );
+    padding-inline: 0;
+  }
+
   .vy__text p {
     hyphens: manual;
     text-wrap: pretty;
