@@ -20,6 +20,11 @@ body {
   inline-size: 85%;
 }
 
+.vy__text h2 {
+  font-size: calc(var(--typ-text) * 0.85);
+  line-height: calc(var(--typ-led) * 0.85);
+}
+
 .vy__text p {
   font-size: calc(var(--typ-text) * 1.5 * 0.85);
   line-height: calc(var(--typ-led) * 1.5 * 0.85);
