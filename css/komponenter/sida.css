@@ -125,6 +125,18 @@ body {
   );
 }
 
+.ram__kant {
+  display: none;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to right, var(--yta), transparent var(--ram-sudd)),
+    linear-gradient(to left, var(--yta), transparent var(--ram-sudd)),
+    linear-gradient(to bottom, var(--yta), transparent var(--ram-sudd)),
+    linear-gradient(to top, var(--yta), transparent var(--ram-sudd));
+}
+
 .sidhuvud {
   position: fixed;
   z-index: var(--lager-meny);

@@ -24,7 +24,7 @@
 <link rel="icon" href="assets/bilder/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/bilder/favicon.png">
 <link rel="preload" href="assets/typsnitt/didai-text-regular.otf" as="font" type="font/otf" crossorigin>
-<link rel="stylesheet" href="css/index.css?v=3">
+<link rel="stylesheet" href="css/index.css?v=4">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,7 +40,7 @@
   "sameAs": "https://www.instagram.com/goliathpresents/"
 }
 </script>
-<script type="module" src="js/huvud.js"></script>
+<script type="module" src="js/huvud.js?v=4"></script>
 </head>
 <body data-node="S1">
 <svg class="filter-rot" width="0" height="0" aria-hidden="true" focusable="false">
@@ -53,18 +53,19 @@
 <div class="ram" aria-hidden="true">
   <video
     class="ram__media"
-    data-rorlig
+    data-komponent="film"
+    src="assets/video/goliath-loop.mp4"
     autoplay
     muted
     loop
     playsinline
-    preload="metadata"
+    webkit-playsinline
+    preload="auto"
     poster="assets/bilder/poster.jpg"
-  >
-    <source src="assets/video/goliath-loop.mp4" type="video/mp4">
-  </video>
+  ></video>
   <div class="ram__korn"></div>
   <div class="ram__vinjett"></div>
+  <div class="ram__kant"></div>
 </div>
 
 <header class="sidhuvud">
